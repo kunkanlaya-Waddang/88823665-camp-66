@@ -1,0 +1,25 @@
+h1{
+    font-size: 20pt;
+    color:red;
+}
+.class-p{
+    color: #ff6347;
+}
+#id-p{
+    color:black;
+}
+body{
+    font-family: "Yuji Mai", serif;
+}
+table{
+    font-family: "Sriracha", cursive;
+
+}
+h1{
+        border-style: dashed;
+        border-width: 2px;
+        border-radius: 5px;
+        border-top-style: dotted;
+        border-color: blueviolet;
+        margin-top: -3px; 
+}
