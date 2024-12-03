@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Page Title</title>
-        <meta charset="UTF-8" />
-    </head>
-    <body>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
-        จัดไปนายเจล
+
+<head>
+    <title>HTML week1</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <h1>Workshop #HTML - FORM</h1>
+    <table>
+    <form>
         
-    </body>
+    <tr>
+            <td><label for="fristname">ชื่อ</label></td>
+            <td><input type="text" id="fristname" name="fristname"></td>
+    </tr>
+    <tr>
+            <td><label for="lastname">นามสกุล</label></td>
+            <td><input type="text" id="lastname" name="lastname"></td>
+    </tr>
+    <tr>
+        <td><label for="date">วัน/เดือน/ปีเกิด</label></td>
+        <td><input type="date"></td>
+</tr>
+<tr>
+    <td><label for="age">อายุ</label></td>
+    <td><input type="number"></td>
+</tr>
+<tr>
+    <td><label for="sex">เพศ</label></td>
+    <td><input type="radio" id ="man" name="sex" value="man">
+    <label for="man">ชาย</label>
+    <input type="radio" id ="woman" name="sex" value="woman">
+    <label for="woman">หญิง</label></td>
+</tr>
+<tr>
+    <td><label for="picture">รูป</label></td>
+    <td><input type="file"id="picture" name="picture"></td>
+</tr>
+<tr>
+    <td><label for="addess">ที่อยู่</label></td>
+    <td><textarea rows="5" cols="22"></textarea></td>
+</tr>
+<tr>
+    <td><label for="color">สีที่ชอบ</label></td>
+    <td><select id="color" name="color" size="1">
+        <option value="สีเเดง">สีเเดง</option>
+        <option value="สีเหลือง">สีเหลือง</option>
+        <option value="สีฟ้า">สีฟ้า</option>
+        <option value="สีเขียว">สีเขียว</option>
+        </select></td>
+</tr>
+<tr>
+    <td><label for="music">เเนวเพลงที่ชอบ</label></td>
+    <td><input type="radio" id ="เพื่อชีวิต" name="music" value="เพื่อชีวิต">
+    <label for="เพื่อชีวิต">เพื่อชีวิต</label>
+    <input type="radio" id ="ลุกทุ่ง" name="music" value="ลูกทุ่ง">
+    <label for="ลูกทุ่ง">ลุกทุ่ง</label>
+    <input type="radio" id ="อื่นๆ" name="music" value="อื่นๆ">
+    <label for="อื่นๆ">อื่นๆ</label></td>
+</tr>
+<tr>
+    <td><input type="checkbox" id="ยินยอม" name="ยินยอม" value="เก็บข้อมูลได">
+        <label for="ยินยอม"> ยินยอมให้เก็บข้อมูล</label></td>
+</tr>
+<tr>
+<td><input type="reset" value="Reset"></td>
+<td><input type="submit" value="Submit"></td>
+
+</tr>
+
+</form>
+</table>
+
+</body>
+
 </html>
